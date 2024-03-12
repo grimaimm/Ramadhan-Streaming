@@ -47,10 +47,6 @@ html,body {
   background-blend-mode: multiply;
 }
 
-.bg-2 {
-  background-image:  url(bg-2.jpg);
-}
-
 .card {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
