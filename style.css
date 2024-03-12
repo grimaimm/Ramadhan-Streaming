@@ -48,7 +48,7 @@ html,body {
 }
 
 .bg-2 {
-  background-image:  url(/static/images/bg-2.jpg);
+  background-image:  url(bg-2.jpg);
 }
 
 .card {
