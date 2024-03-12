@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Font Family */
+.font-plus-jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.font-sora {
+  font-family: "Sora", sans-serif;
+}
+.font-fira-code {
+  font-family: "Fira Code", sans-serif;
+}
+
+/* body {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image:  url(/static/images/bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+} */
+
+html,body {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  font-family: "Sora", sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: transparent;
+  text-align: center;
+  display: table;
+  background-blend-mode: multiply;
+}
+
+.bg-2 {
+  background-image:  url(/static/images/bg-2.jpg);
+}
+
+.card {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+.card img {
+  transform: scale(100%);
+  transition: all .3s ease-in-out;
+}
+.card:hover img {
+  transform: scale(110%);
+  transition: all .3s ease-in-out;
+}

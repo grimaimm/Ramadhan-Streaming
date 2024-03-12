@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="static/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+  <title>Ramadhan Streaming</title>
+  <script src="/static/scripts.js"></script>
+</head>
+<body onload="tampilkanWaktu()">
+  <div class="wrapper">
+    <div class="fixed-bg bg-2">
+      <section class="streaming font-sora">
+        <div class="flex flex-col justify-center min-h-screen px-4 lg:px-48 mx-auto text-center">
+          <div class="mb-6 lg:text-4xl text-2xl font-bold text-[#fef8e0]">
+            <span id="waktu"></span>
+          </div>
+          <div class="grid w-full gap-4 grid-cols-2 lg:grid-cols-5">
+            <a href="https://www.sctv.co.id/live-streaming/" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/SCTV_Logo.svg.png" alt="SCTV">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">SCTV</p>
+              </div>
+            </a>
+            <a href="https://www.rctiplus.com/tv/gtv" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                <img src="/static/images/GTV_Logo.svg.png" alt="GTV">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">GTV</p>
+              </div>
+            </a>
+            <a href="https://www.netmedia.co.id/live-streaming" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/NET_Logo.svg.png" alt="NET.">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">NET.</p>
+              </div>
+            </a>
+            <a href="https://www.rctiplus.com/tv/rcti" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/RCTI_Logo.svg.png" alt="RCTI">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">RCTI</p>
+              </div>
+            </a>
+            <a href="https://www.vidio.com/live/782" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/Antv_Logo.svg.png" alt="ANTV">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">ANTV</p>
+              </div>
+            </a>
+            <a href="https://www.vidio.com/live/733" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/TransTV_Logo.svg.png" alt="TRANS TV">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">TRANS TV</p>
+              </div>
+            </a>
+            <a href="https://www.vidio.com/live/734" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/Trans7_Logo.svg.png" alt="TRANS 7">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">TRANS 7</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/TvOne_Logo.svg.png" alt="TV ONE">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">TV ONE</p>
+              </div>
+            </a>
+            <a href="https://www.rctiplus.com/tv/mnctv" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/MNCTV_Logo.svg.png" alt="MNC TV">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">MNC TV</p>
+              </div>
+            </a>
+            <a href="https://www.vidio.com/live/205" target="_blank">
+              <div class="card flex justify-center border-2 border-[#fef8e0] rounded-lg w-full">
+                <div class="flex items-center h-24 w-24">
+                  <img src="/static/images/Indosiar_Logo.svg.png" alt="INDOSIAR">
+                </div>
+                <p class="lg:text-4xl text-3xl font-extrabold hidden" style="padding-top: 0.1rem;">INDOSIAR</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
